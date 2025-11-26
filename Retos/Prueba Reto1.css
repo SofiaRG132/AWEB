@@ -1,0 +1,126 @@
+/*Esta es una hoja de estilo de Repaso1.css
+Sofia Requena Gonzalez
+15/10/2025
+*/
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+    
+    }
+    
+    body{
+        background-color: antiquewhite ;
+    
+    }
+    
+    span{
+        font-weight: bolder;
+
+    }
+
+    h1{
+        text-align: center;
+        background-color: rgba(15, 58, 128, 0.811);
+        color:rgb(255, 255, 255);
+        border-radius: 10px;
+        padding: 5px;
+        margin: 15px;
+    
+    }
+    
+    nav{
+        background-color: rgb(229, 229, 229);
+        margin: 20px 20px 20px 20px;
+        text-align: center;
+        padding: 10px;
+        border: 4px solid rgba(15, 58, 128, 0.811);
+    }
+    
+    section {
+        background-color: rgb(251, 251, 251);
+        margin: 10px;
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+    
+    }
+    
+    h2{
+        text-align: center;
+        background-color:rgba(15, 58, 128, 0.811) ;
+        padding: 10px;
+        border-radius: 15px;
+        color: white;
+        margin-bottom: 15px;
+    
+    }
+    
+    p{
+        margin: 15px;
+    
+    }
+    
+   .objetiva{
+    color: rgb(47, 47, 201);
+   }
+
+    .importante{
+        background-color: rgba(251, 224, 188, 0.848);
+        padding: 10px;
+        border-left: 5px rgb(255, 201, 23) solid;
+    
+    }
+    
+    .Inicio{
+        margin: 50px;
+    
+    }
+    
+    .Historia{
+        margin: 50px;
+    
+    }
+    
+    .historia{
+        background-color: rgba(187, 229, 253, 0.899);
+        border: 3px solid rgba(15, 58, 128, 0.811);
+    }
+
+    .historia2{
+        border: 0px; 
+        background-color: rgb(233, 236, 236);
+
+    }
+
+    .historia3 {
+        text-align: center;
+        border: 0px; 
+        background-color: rgb(200, 202, 249);
+
+    }
+
+    .Contacto{
+        margin: 50px;
+    }
+    .paises{
+        background-color: rgb(239, 172, 148);
+        font-size: 20px;
+        font-weight: bold;
+    
+    }
+
+ hr {
+    margin: 20px 200px 20px 200px;
+ }
+
+    footer {
+        text-align: center;
+        margin: 15px;
+        background-color: rgb(251, 251, 251);
+        margin: 10px;
+        padding: 15px;
+        border: 2px solid black;
+        border-radius: 10px;
+
+    }
