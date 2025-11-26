@@ -1,0 +1,89 @@
+/*Hoja de estilo Practica5.css de cajas flotantes
+Sofía Requena Gonzalez
+20/10/2025*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+body {
+    color: white;
+
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+div{
+    /*width: es para la anchura de las cajas y el height: la altura de las cajas*/
+    /*border-radius: para poner los border redondos*/
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+#CajaNegra{
+    background-color: black;
+    color:white;
+    /*Para poner las cajas, imagenes, o cualquier otro objeto. 
+    Se utiliza float: donde lo queremos poner*/
+    /* float: left; */
+
+    /*Se utiliza clear: para "limpiar elementos en la zona que queramos, 
+    haciendo así que ningun elemento pueda ponerse en esa zona. Como
+    por ejemplo clear:both; seria para ambos lados(izquierda y derecha)"*/
+    clear: both;
+    width: 100%;
+
+}
+
+#CajaRoja{
+    background-color: red;
+    color: white;
+    float: right;
+    
+}
+
+#CajaVerde{
+    background-color: green;
+    color: white;
+    float: left;
+    
+}
+
+#CajaAzul{
+    background-color: blue;
+    color: white;
+    /* float: right; */
+    clear: both;
+    width: 100%;
+    
+}
+
+.parrafo{
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    width:70%;
+    clear: both;
+}
+
+header{
+    width: 70%;
+    margin: auto;
+
+}
+
+header>h3{ float:left;}
+
+header>img{
+    width: 30%;
+    float: right;
+}

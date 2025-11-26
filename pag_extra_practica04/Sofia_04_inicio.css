@@ -1,0 +1,90 @@
+/*Esta va a ser la hoja de estilo (Sofia_04_inicio.css) de la pagina inicio de la practica 4
+Sofía Requena González
+11/10/2025
+*/
+
+*{
+
+margin: 0px;
+box-sizing: border-box;
+}
+
+body{
+    background-color:rgba(212, 95, 212, 0.833);
+    font-family: 'Times New Roman';
+
+}
+
+nav {
+    text-align: center;
+    font-weight: bolder;
+    
+    }
+    
+    .Inicio {
+    margin: 10px 50px 10px 50px
+    
+    }
+    
+    .Sobre_mi {
+    margin: 10px 50px 10px 50px
+    
+    }
+    .Eventos_Culturales {
+        margin: 10px 50px 10px 50px
+    }
+    
+    .Proyectos{
+    margin: 10px 50px 10px 50px
+    
+    }
+    
+    .Contactos {
+        margin: 10px 50px 10px 50px
+    
+    }
+
+hr {
+
+    height: 7px; 
+    background-color: rgb(109, 0, 119);
+}
+
+h1{
+    margin: 50px 70px 50px 70px;
+    text-align: center;
+    background-color: rgba(1, 85, 133, 0.689)!important;
+    border: solid 5px black;
+    border-width: 8px;
+    border-radius: 20px;
+    text-align: center;
+    box-sizing:border-box;
+}
+
+h2 {
+    margin: 10px 70px 0px 70px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    font-size:200%;
+    background-color: rgba(164, 123, 68, 0.689)!important;
+    border: solid 5px black;
+    border-radius: 10px;
+    
+}
+
+
+
+img {
+    width: 50%;
+    border-radius: 25px;
+    margin: 50px 1px 40px 50px
+}
+
+p {
+    font-family: Cambria;
+    font-size: large;
+    font-style: italic;
+    margin: 0px 50px 40px 50px    
+    
+}

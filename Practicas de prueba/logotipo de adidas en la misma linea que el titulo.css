@@ -1,0 +1,63 @@
+/*Hoja de estilo logotipo adidas en la misma linea que el titulo.css
+Sofía Requena González
+25/10/2025
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+body {
+    background-color: rgb(155, 113, 79);
+
+}
+
+header{
+    margin: 15px 8% 15px 8%;
+    padding: 30px;
+    text-align: left;
+    background-color: rgb(254, 229, 196);
+
+}
+img{
+    width: 50px;
+    overflow: hidden;
+    float: right;
+   
+}
+
+p{
+ text-align: left;  
+}
+
+h1{
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+}
+
+div{
+    /*width: es para la anchura de las cajas y el height: la altura de las cajas*/
+    /*border-radius: para poner los border redondos*/
+    width: 200px;
+    height: 90px;
+    padding: 8px;
+    border-radius: 20px;
+    margin-bottom: 20px; 
+    height: auto;
+    /*el height:auto; para que el cuadrado se adapte al contenido (el texto)*/
+
+}
+
+#Tienda_Ropa{
+    background-color: rgba(90, 87, 87, 0);
+    border: 2px solid rgb(0, 0, 0);
+    width: 80%;
+    margin: auto;
+    padding:16px;
+    
+
+}
