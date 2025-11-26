@@ -1,0 +1,114 @@
+/*Hoja de estilo Sofía_05.css
+Sofía Requena González
+20/10/2025
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+body {
+    color: rgb(0, 0, 0);
+
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+div{
+    /*width: es para la anchura de las cajas y el height: la altura de las cajas*/
+    /*border-radius: para poner los border redondos*/
+    width: 200px;
+    height: 100px;
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 20px; 
+
+}
+
+footer {
+    text-align: center;
+    margin: 15px;
+    margin: 60px 60px 30px 60px;
+    padding: 15px;
+    font-family:"Times New Roman";
+
+}
+
+hr{
+    height: 7px; 
+    background-color: rgb(210, 0, 207);
+}
+
+#ListaNegra{
+    background-color: rgb(90, 87, 87);
+    clear: both;
+    width: 100%;
+    text-align: left;
+    padding-top: 40px;
+    
+
+}
+
+#BolaRoja{
+    background-color: rgb(252, 51, 51);
+    padding-top: 10%;
+    border-radius: 100%;
+    width: 25%;
+    margin: auto;
+    height: 130px;
+    float: left;
+    
+}
+
+
+
+#BolaAzul{
+    background-color: rgb(67, 67, 255);
+    padding-top: 10%;
+    border-radius: 100%;
+    width: 25%;
+    margin: auto;
+    height: 130px;
+    float: left;
+    
+    
+}
+
+#BolaAzul2{
+    background-color: rgb(101, 101, 255);
+    padding-top: 10%;
+    border-radius: 100%;
+    width: 25%;
+    margin: auto;
+    height: 130px;
+    float: right;
+
+}
+
+#BolaAmarilla {
+    background-color: rgb(255, 240, 72);
+    padding-top: 10%;
+    text-align: center;
+    border-radius: 100%;
+    width: 25%;
+    float: left;
+    height: 130px;
+    
+    
+}
+
+#ListaVerde{
+    background-color: rgb(93, 229, 107);
+    clear: both;
+    width: 100%;
+    text-align: left;
+    
+}
+
+

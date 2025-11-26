@@ -1,0 +1,70 @@
+
+/*Esta es una hoja de estilo de Sofia_17.css
+Sofia Requena Gonzalez
+24/11/2025
+*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+*::selection{
+    background: burlywood;
+}
+
+body{
+    background-color: rgba(237, 90, 90, 0.797);
+}
+
+main{
+    padding: 10px;
+    background: linear-gradient(to right bottom, rgba(8, 41, 159, 0.664)0%,rgba(102, 246, 198, 0.664) 50rem,rgba(180, 178, 49, 0.664));
+    border-radius: 25px;
+    margin: 2rem;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#titulo2{
+    color: rgb(0, 0, 0);
+    text-transform: lowercase;
+    margin-top: 2rem;
+}
+
+
+#titulo2::before,#titulo2::after{
+    content:"''";
+    border: 3px solid #ff0000a7;
+    border-radius: 10px;
+    margin: 5px;
+} 
+
+article{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    text-align: justify;
+    column-count: 3;
+    column-gap: 5rem;
+    column-rule: 5px solid rgb(220, 224, 5);
+}
+
+p::first-letter{
+    font-size: 5rem;
+    color: rgb(4, 0, 226);
+}
+
+p::first-line{
+    color: rgb(162, 101, 32);
+    font-weight: bold;
+}

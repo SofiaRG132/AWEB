@@ -1,0 +1,214 @@
+/*Hoja de estilo practica_06.css creacion de menu 
+en horizaontal, vertical, flexbox, grid
+Sofía Requena González
+20/10/2025
+*/
+/* nav{
+    display: flex;
+    justify-content: space-around; <-- ¿Que hace?
+    width: 100%;
+    margin: 40px auto 40px auto;
+ } */
+
+/* nav a{
+    flex-grow: 1;
+ } */
+
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+img {
+    width: 60%;
+    border: 10px double;
+    clear: both;
+    margin-left: 10%;
+    border: 10px double;
+
+}
+
+h1{
+    margin: 25px auto;
+    text-align: center;
+    font-family:'Impact';
+    color:rgb(0, 0, 0);
+    text-shadow: rgb(253, 10, 10) -2px 4px 2px;
+}
+
+footer {
+    text-align: center;
+    margin: 15px;
+    margin: 60px 60px 30px 60px;
+    padding: 15px;
+
+}
+
+hr{
+   
+    height: 7px; 
+    background-color: rgb(196, 210, 45);
+
+}
+
+.Periodicos{
+    margin: 50px auto 0px auto;
+    text-align: center;
+    font-family:'Impact';
+    color:rgb(0, 0, 0);
+    text-shadow: rgb(0, 4, 255) -2px 4px 2px;
+    clear: both;
+}
+
+/*Menú Flotante  Horizontal */
+
+.Menu_Horizontal a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    width: 20%;
+    padding: 20px;
+}
+
+.Menu_Horizontal a:hover {
+    background-color: rgb(95, 153, 255);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.Menu_Horizontal {
+
+    overflow: hidden;
+    border: 10px double rgb(255, 0, 0);
+
+}
+
+/*Menú Flotante Vertical*/
+
+.Menu_Vertical {
+
+    float: left;
+    width: 20%;
+    overflow: hidden;
+    border: 10px double rgb(17, 0, 255);
+    margin: 0px auto 30px 0px;
+}
+
+.Menu_Vertical a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
+
+
+}
+
+.Menu_Vertical a:hover {
+    background-color: rgb(255, 95, 95);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-style: italic;
+}
+
+
+/*Menú flexbox*/
+
+
+
+.Menu_Flexbox {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    clear: both;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px ;
+    overflow: hidden;
+
+}
+
+
+.Menu_Flexbox a {
+    text-decoration: none;
+    background-color: rgb(145, 145, 234);
+    color: black;
+    padding: 20px;
+    flex-grow: 1;
+    text-align: center;
+    border-bottom: 4px solid black;
+
+}
+
+.Menu_Flexbox a:first-child{
+    border-top-left-radius: 20px;
+}
+
+.Menu_Flexbox a:last-child{
+    border-top-right-radius: 20px;
+}
+
+.Menu_Flexbox a:hover {
+    background-color: aquamarine;
+    font-weight: bolder;
+
+}
+
+/*Menú css Grid*/
+
+.Menu_Grid {
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: auto;
+    overflow: hidden;
+    
+}
+
+.Menu_Grid a {
+    text-decoration: none;
+    background-color: rgb(234, 167, 145);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    overflow: hidden;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+
+}
+
+.Menu_Grid a:first-child{
+    border-top: 4px solid rgb(205, 3, 3);
+    border-top-left-radius: 20px;
+}
+
+.Menu_Grid a:last-child{
+    border-bottom-right-radius: 20px;
+    border-bottom: 4px solid rgb(205, 3, 3);
+}
+
+.Menu_Grid a:hover {
+    background-color: rgb(176, 255, 127);
+    font-weight: bolder;
+}
+
+.imagen2{
+    width: 60%;
+    border: 10px double;
+    clear: both;
+    margin-right: 20%;
+    border: 10px double;
+
+}
+
+.contenedor_grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: auto;
+}
+

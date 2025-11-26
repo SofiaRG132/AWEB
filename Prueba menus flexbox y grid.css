@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    background-color: bisque;
+
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
+    color: whitesmoke;
+    text-shadow: black 3px 3px 2px;
+
+}
+
+.Menu_Flexbox {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+    /*flex-direction: column-reverse; flex-direction: 
+    row-reverse; para darle la vuelta al menú sin tocar el html*/
+    overflow: hidden;
+    border-top: 4px solid black;
+}
+
+.Menu_Flexbox a {
+    text-decoration: none;
+    background-color: rgb(145, 145, 234);
+    color: black;
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.Menu_Flexbox a:hover {
+    background-color: aquamarine;
+    border-bottom: 3px solid black;
+
+}
+
+.Menu_Flexbox a:first-child, .Menu_Grid a:first-child {
+    border-bottom-left-radius: 20px;
+}
+
+.Menu_Flexbox a:last-child, .Menu_Grid a:last-child {
+    border-bottom-right-radius: 20px;
+}
+
+.Menu_Flexbox a:nth-child(3), .Menu_Grid a:nth-child(2) {
+    background-color: brown;
+}
+
+
+
+.Menu_Grid {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    border-top: 4px solid black;
+    /*display:grid; sirve para desplegar para abajo el menu*/
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.Menu_Grid a {
+    text-decoration: none;
+    background-color: rgb(145, 145, 234);
+    color: black;
+    padding: 20px;
+    text-align: center;
+
+}
+
+.Menu_Grid a:hover {
+    background-color: aquamarine;
+    border-bottom: 3px solid black;
+
+}

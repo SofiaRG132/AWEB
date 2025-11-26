@@ -1,0 +1,49 @@
+/*Esto es la hoja de estilo de la practica de prueba0
+08/10/2025
+Sofía Requena Gonzalez */
+
+*{
+    margin: 0px;
+   box-sizing: border-box;
+
+}
+
+img {
+width: 50%;
+border-radius: 25px;
+
+}
+
+h1 {
+    background-color: burlywood;
+    padding: 20px;
+    text-align: center;
+    border: solid 3px;
+    margin: 5px;
+}
+
+p {
+
+    background-color: rgb(189, 107, 108);
+    padding: 15px;
+    border: double 4px ;
+    /*margin: top right bottom left; sirve para poner los margenes arriba derecha abajo e izquierda*/
+    margin: 10px 20px 10px 0px;
+
+}
+/* el codigo p>b sirve para modificar una funcion dentro de un parrafo en este caso*/
+p>b{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    color: blue;
+
+}
+
+footer {
+    text-align: center;
+    margin: 15px;
+    margin: 60px 60px 30px 60px;
+    padding: 15px;
+    font-family: Times New Roman;
+
+}

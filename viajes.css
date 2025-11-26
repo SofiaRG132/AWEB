@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{ font-size: 62.5%; scroll-behavior: smooth;}
+
+h1{
+    margin: 2rem auto 2rem auto;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.texto-azul {color:rgb(55, 124, 252);}
+
+body{ 
+    background-image: url(./imagenes/foto_fondo_viajes.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 18px;
+    font-size: 1.6rem;
+    height: 250vh;
+    text-shadow: white 2px 2px 2px;
+}
+
+.cabecera{
+    background-image: url(./imagenes/foto_cabecera_viajes.jpeg);
+    height: 25rem;
+    width: 80%;
+    margin: auto;
+    border-radius: 0.6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    box-shadow: rgb(11, 11, 11) -5px 5px 12px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;    
+    width: 70%;  
+    margin: 2rem auto auto auto;
+    border-top: 0.2rem rgb(255, 255, 255) solid;
+
+    
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    flex: 1;
+    padding: 2rem;
+    text-align:center;
+    font-weight: bolder;
+
+    transition: 2s ease;
+    
+}
+
+nav a:hover{
+    transform: scale(1.2) translate(-5px,5px) rotate(3deg);
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.144);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+section{
+    width: 70%;
+    margin: 2.5rem auto;
+    
+}
+
+h3{
+    text-align: center;
+    padding: 1rem;
+    
+}
+
+.ejemplos{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2rem;
+}
+
+.servicios p{
+    box-shadow: rgb(11, 11, 11) -5px 5px 12px;
+}
+
+.ejemplos img{ 
+    width: 100%; 
+    transition: 1.2s ease;
+    box-shadow: rgb(11, 11, 11) -5px 5px 12px;
+    border-radius: 1rem;
+}
+.ejemplos img:hover{
+    transform: scale(1.2) translate(-5px,5px) rotate(3deg);
+}
+
+p{
+    text-shadow: none;
+    background-color: rgba(255, 255, 255, 0.429);
+    padding: 2rem;
+    text-align: justify;
+}
+
+.experiencias{
+    display: flex;
+    justify-content: space-between;
+   /* gap: 2rem;*/
+   
+
+}
+
+.experiencias p{
+    flex: 1;
+    text-align: center;
+    border-radius: 2rem;
+    margin: 0.5rem 1rem;
+    transition: 2s ease;
+    box-shadow: rgb(11, 11, 11) -5px 5px 12px;
+    
+}
+
+.experiencias p:hover{
+    transform: scale(0.9);
+}
+
+/*Tamaño para moviles, con mediaQuerys*/
+ 
+ @media (width<600px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    } 
+
+    .experiencias{
+        flex-direction: column;
+    } 
+
+    .ejemplos{
+        grid-template-columns: auto;
+    }
+ }
+
+ /*Si el tamaño es intermedio, para tablets*/
+
+  @media (width<780px) and (width>500px) {
+      .ejemplos{
+        grid-template-columns: auto auto;
+    }
+ }

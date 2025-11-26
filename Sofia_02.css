@@ -1,0 +1,56 @@
+/* Practica 02 de eventos culturales CSS */
+
+body {
+    background-color: rgb(206, 109, 247);
+    font-family: 'Times New Roman';
+
+}
+
+h1 {
+    
+    border: solid 5px rgb(111, 0, 159);
+    border-radius: 10px;
+    margin:auto;
+    width: 75%;
+}
+
+footer {
+    text-align: center;
+    margin: 15px;
+    margin: 60px 60px 30px 60px;
+    padding: 15px;
+    font-family: Times New Roman;
+
+}
+
+.Origenes-e-Historia {
+    text-align:left;
+    font-family: 'Cambria';
+    
+
+}
+
+.Tradiciones-Unicas{
+
+    text-align: right;
+}
+.Tradiciones-Unicas2 {
+
+    text-align: right;
+
+}
+
+.Hermandades {
+text-align: left;
+
+}
+
+.Calles {
+text-align: right;
+
+}
+
+.Calles2 {
+text-align: right;
+
+}

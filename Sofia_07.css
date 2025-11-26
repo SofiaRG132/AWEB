@@ -1,0 +1,251 @@
+/*Hoja de estilo Sofia_07.css
+Sofía Requena González
+27/10/2025*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+
+}
+
+h1{
+    margin: 25px auto;
+    text-align: center;
+    font-family:'Impact';
+    color:rgb(178, 43, 38);
+    text-shadow: black -2px 4px ;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    background-color:rgb(185, 152, 129) ;
+
+}
+
+h3{
+    text-align: center;
+    margin: 0 0 20px 0
+
+}
+
+section{
+    background-color: rgb(127, 255, 174);
+    width: 80%;
+    margin: auto;
+    border: 5px dotted;
+    padding: 30px;
+    border-left: 10px goldenrod solid;
+    border-top-left-radius: 30px;
+
+}
+
+hr {
+    margin: 20px 200px 20px 200px;
+    height: 7px;
+    background-color: black;
+    
+ }
+
+footer {
+    text-align: center;
+    margin: 15px;
+    margin: 60px 60px 30px 60px;
+    padding: 15px;
+    
+}
+
+.Lista_no_numerada {
+    background-color: rgb(127, 255, 174);
+    width: 80%;
+    margin: auto;
+    border: 5px solid;
+    padding: 30px;
+    border-left: 8px rgb(218, 32, 69) solid;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-right: 8px rgb(218, 32, 69) solid ;
+    margin-bottom: 30px;
+
+}
+
+
+
+.Lista2 li{
+    margin: 10px;
+    list-style-type:lower-latin;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.Lista3{
+
+    margin: 10px;
+    list-style-type:decimal;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.Lista_numerada{
+    background-color: rgb(255, 127, 238);
+    width: 80%;
+    margin: auto;
+    border: 8px double;
+    padding: 30px;
+    border-top: 8px goldenrod solid;
+    border-bottom: 8px goldenrod solid;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-bottom: 30px;
+
+}
+
+.Lista_de_definiciones{
+    background-color: rgb(133, 127, 255);
+    width: 80%;
+    margin: auto;
+    border: 5px dotted;
+    padding: 30px;
+    border-left: 8px rgb(32, 218, 103) solid;
+    border-right: 8px rgb(32, 218, 103) solid;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-bottom: 30px;
+
+} 
+   
+.img1{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Pantalla.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.img2{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Procesador\ AMD.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+    
+}
+
+.img3{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Memoria\ RAM.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.img4{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Almacenamiento.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.img5{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Windows\ 11-Home.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.img6{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Camara\ Web.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.img7{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Conectividad\ Inalambrica.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.img8{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Puertos\ USB4\ .png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.img9{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Teclado\ RGB.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}
+
+.img10{
+    margin: 10px;
+    list-style-type: none;
+    background-image: url(./imagenes/Tarea_07/Bateria\ de\ Litio.png);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: left center;
+        background-position-x: -5px;
+    padding: 0px 0px 0px 30px;
+    font-weight: bolder;
+
+}

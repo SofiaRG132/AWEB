@@ -1,0 +1,72 @@
+html {
+   box-sizing: border-box;
+   font-size: 62.5%;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+}
+ 
+body{
+   font-size: 2rem;
+   background-color: burlywood;
+
+}
+ .contacto{
+    background-color: black;
+    border: solid 5px black;
+    width: 65%;
+    margin: auto;
+    padding: 2rem; 
+    overflow: auto;
+ }
+ 
+ .contacto h1{
+    color: white;
+    text-align: center;
+    padding: 1rem;
+ }
+ 
+ 
+ .linea{
+    background: white;
+    height: 0.5rem;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 1rem;
+ }
+ 
+ 
+ .formulario{
+   display: flex;
+   flex-direction:column;
+ }
+ 
+ 
+ .formulario > *{
+    margin: 3rem 0rem 0rem 0rem;
+    padding: 1.5rem;
+    border-radius: 1rem;
+ }
+
+input{
+   text-align: center;
+    display: inline-block;
+   margin: 1.6rem;
+}
+
+fieldset {
+   text-align: center;
+   
+}
+
+fieldset label
+{
+   margin: 2rem 1.8rem;
+  
+}
+
+fieldset {
+   text-align: center;
+}

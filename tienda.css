@@ -1,0 +1,107 @@
+/*Esta es una hoja de estilo de tienda.css
+Sofia Requena Gonzalez
+24/11/2025
+*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.6rem;
+    height: 250vh;
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+    background-color: burlywood;
+    
+}
+
+footer{
+    background-color: rgb(158, 210, 249);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cabecera{
+    background-image: url(./imagenes/Foto_iphone_horizontal.png);
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;    
+    width: 100%;
+    position: fixed;
+    /*El position: fixed; Sirve para fijar un menu, footer, etc*/
+}
+
+div{
+    flex: 1;
+    
+}
+
+nav a{
+    text-decoration: none;
+    background-color: rgb(90, 225, 85);
+    color:black;
+    flex: 1;
+    padding: 2rem;
+    text-align:center;
+}
+
+nav a:hover{
+    text-decoration: none;
+    background-color: rgb(33, 87, 31);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    flex: 1;
+    padding: 2rem;
+    text-align:center;
+}
+
+main{
+
+    width: 80%;
+    margin: 2rem auto 2rem auto;
+}
+
+section{
+    background-color: rgb(135, 135, 243);
+    margin-top: 20rem;
+}
+
+section h3{
+    background-color: gray;
+    padding: 2rem;
+}
+
+section p{
+    padding: 2rem;
+}
+
+section a{
+    text-decoration: none;
+    font-size: 2rem;
+    color: black;
+    background-color: burlywood;
+    border-radius: 5px;
+    margin: auto;
+}

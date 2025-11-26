@@ -1,0 +1,72 @@
+/*Hoja de estilo Fuentes de Texto.css
+Sofía Requena González
+10/11/2025
+}
+
+*/
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, footer{
+    background-color: white;
+    border-style: solid;
+    border-radius: 2rem;
+    padding: 0.5rem;
+    text-align: center;
+    margin: 2rem;
+
+}
+
+body{
+  /*  background-image: url(./imagenes/paisaje.jpg);*/
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: beige;
+    margin: 4rem ;
+}
+
+section{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+h2{
+    text-align: center;
+    padding: 2rem;
+}
+
+.s1 {
+    color: black;
+    font-family: "Ballet", cursive;
+    font-optical-sizing: auto;
+    font-weight: 4rem;
+    font-style: normal;
+}
+
+.s2 {
+    color: black;
+    font-family: "Quintessential", serif;
+    font-weight: 4rem;
+    font-style: normal;
+}
+
+.s3{
+    color: black;
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+}

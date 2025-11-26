@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Incidencias - IES Cura Valera</title>
+    <link rel="stylesheet" href="./Sofia_15.css">
+</head>
+
+<body>
+
+    <div class="contacto">
+        <h1>Registro de Incidencias - IES Cura Valera</h1>
+        <div class="linea"></div>
+
+        <form action="contact.php" method="post" class="formulario" target="_blank">
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Datos del Alumno/a</legend>
+
+                <label style="color: white; text-align: center;" for="fname">Nombre: </label>
+                <input type="text" id="fname" name="fname" value="Sofía">
+
+                <label style="color: white; text-align: center;" for="lname">Apellidos:</label>
+                <input type="text" id="lname" name="name" value="Requena González">
+
+                <label for="enlace" style="color: white;">Página del Centro:</label>
+                <a href="https://iescuravalera.es" target="_blank" id="enlace">
+                    <button type="button">Web del Instituto</button>
+                </a>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Contacto del Alumno/a</legend>
+
+                <input type="text" placeholder="Nombre del Responsable" name="nombre">
+                <input type="email" placeholder="Correo del Tutor Legal" name="email">
+                <input type="tel" placeholder="Teléfono de Contacto" name="telefono">
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Documentos y Datos Adicionales</legend>
+                <label for="pwd"style="color: white; text-align: center;">Selecciona un fichero</label>
+                <input type="file" id="miFichero" name="miFichero">
+                <label for="pwd"style="color: white; text-align: center;">Selecciona un dia</label>
+                <input type="date" id="fecha" name="fecha">
+                <label for="pwd"style="color: white; text-align: center;">Selecciona un color</label>
+                <input type="color" id="favcolor" name="favcolor">
+                <label for="pwd"style="color: white; text-align: center;">Contraseña</label>
+                <input type="password" id="pwd" name="pwd">
+            </fieldset>
+
+            <input type="range" id="a" name="a" value="50">
+            <input type="number" id="b" name="b" value="50">
+            <input type="number" id="quantity" name="quantity" min="0" max="100" step="10" value="30">
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">Nacionalidad (Opcional)</legend>
+
+                <label style="color: white; text-align: center;" for="informatico">Español</label>
+                <input type="radio" name="informatico" id="informatico">
+
+                <label style="color: white; text-align: center;" for="informatico">Extranjero</label>
+                <input type="radio" name="informatico" id="informatico">
+
+                <label style="color: white; text-align: center;" for="informatico">Prefiero no decirlo</label>
+                <input type="radio" name="informatico" id="informatico">
+            </fieldset>
+
+            <fieldset>
+                <legend style="color: white; text-align: center;">¿El alumno tiene conocimientos informáticos?</legend>
+
+                <label style="color: white; text-align: center;" for="español">Sí</label>
+                <input type="checkbox" name="español" id="español">
+
+                <label style="color: white; text-align: center;" for="español">No</label>
+                <input type="checkbox" name="español" id="español">
+            </fieldset>
+
+            <textarea style="text-align: center;" placeholder="Describe la incidencia con detalle" rows="3" cols="20" name="mensaje"></textarea>
+
+            <legend style="color: white; text-align: center;">País donde se detectó la incidencia (si aplica)</legend>
+            <select id="pais" name="paises">
+                <option value="España">España</option>
+                <option value="Italia">Italia</option>
+                <option value="Francia">Francia</option>
+                <option value="Otro">Alemania</option>
+                <option value="Otro">Fuera de la UE</option>
+            </select>
+
+            <legend style="color: white; text-align: center;">Destinos para Programas Educativos</legend>
+            <select id="pais" name="paises" multiple>
+                <option value="EE.UU">EE.UU</option>
+                <option value="Canada" selected>Canadá</option>
+                <option value="China" selected>China</option>
+                <option value="Corea del Sur" selected>Corea del Sur</option>
+                <option value="Japon" selected>Japón</option>
+                <option value="Otro" selected>Otro</option>
+            </select>
+
+            <input type="submit" value="Enviar Incidencia">
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

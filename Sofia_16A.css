@@ -1,0 +1,58 @@
+/*Esta es una hoja de estilo de Sofia_16A.css
+Sofia Requena Gonzalez
+24/11/2025
+*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./imagenes/Fondo_de_Qatar_2022.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    font-size: 2rem;
+}
+
+header, footer{
+    background-color: white;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 5px;
+    text-align: center;
+    margin: 20px;
+
+}
+
+footer {
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+    background-color: aquamarine;
+    font-weight: bold;
+    font-style: italic;
+
+    position: fixed;
+    width: 97%;
+    bottom: 0;
+}
+
+footer:hover{
+    text-align: center;
+    font-size: 2rem;
+    background-color: rgb(133, 127, 255);
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+

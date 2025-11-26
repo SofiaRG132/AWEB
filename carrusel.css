@@ -1,0 +1,65 @@
+/*Esta es una hoja de estilo carrusel.css
+Sofia Requena Gonzalez
+17/11/2025*/
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.6rem;
+    padding: 2rem;
+    background: linear-gradient(to left bottom, rgba(255, 60, 60, 0.671) 30%,rgba(104, 231, 104, 0.671) 70%,rgba(255, 255, 255, 0.671)) 0%;
+    height: 100vh;
+    cursor: url("./imagenes/Carrusel/cursor.cur"), auto;
+}
+
+section{
+    display: flex;
+    height: 500px;
+
+}
+
+section img{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: 0.6;
+    transition: 4s ease;
+
+}
+
+section img:hover{
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    
+}
+
+section img:first-child{
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+section img:last-child{
+    border-top-right-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+h1{
+    cursor: cell;
+    text-align: center;
+    
+}
+
+p{
+    text-align: center;
+    margin: 2rem;
+    font-weight: 800;
+}
